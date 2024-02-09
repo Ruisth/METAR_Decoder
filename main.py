@@ -8,7 +8,7 @@ from GUI_Interface.ICAO_Gui import icao
 
 class Homepage(App):
     def build(self):
-        return Button(text="Welcome to LikeGeeks!", background_color=(255, 0, 0, 100))
+        return Label(text="METAR Decoder")
 
 
 Homepage().run()
