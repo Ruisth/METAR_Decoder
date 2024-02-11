@@ -1,11 +1,17 @@
-import tkinter as tk
-from tkinter import *
-from tkinter.ttk import *
+from kivy.app import App
+from kivy.uix.label import Label
+from kivy.uix.button import Button
+from kivy.uix.boxlayout import BoxLayout
+from functools import partial
+from kivy.uix.screenmanager import ScreenManager, Screen
 
 
-def icao():
-    print("Hello World!", )
+class ICAO_Gui(Screen):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        self.add_widget(Button(text="Search METAR info", on_release=self.search_METAR))
 
 
-if __name__ == '__icao__':
-    icao()
+    #def search_METAR(self, instance):
+        # Search for METAR infor for ICAO inserted
+

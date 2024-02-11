@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40fba983-c3ac-40f7-8d26-e36ff1fe25e3" name="Changes" comment="initial commit">
+    <list default="true" id="40fba983-c3ac-40f7-8d26-e36ff1fe25e3" name="Changes" comment="Box Layout test">
       <changelist_data name="Ruisth" email="" />
+      <change afterPath="$PROJECT_DIR$/Resources/METAR_Decoder_Color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/METAR_Decoder_Image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/METAR_Decoder_Logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/METAR_Decoder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/METAR_Decoder.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_02_2024_12_44__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_02_2024_12_44__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI_Interface/ICAO_Gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI_Interface/ICAO_Gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +55,16 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2c6WvHOwadiKmaG0fr74F2yHuSo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.gui.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -67,7 +76,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -142,6 +151,10 @@
       <workItem from="1707432749093" duration="107000" />
       <workItem from="1707432868185" duration="368000" />
       <workItem from="1707433246216" duration="5105000" />
+      <workItem from="1707472095159" duration="120000" />
+      <workItem from="1707472422994" duration="499000" />
+      <workItem from="1707579625346" duration="36000" />
+      <workItem from="1707579679439" duration="4761000" />
     </task>
     <servers />
   </component>
@@ -160,11 +173,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/METAR_Decoder$gui.coverage" NAME="gui Coverage Results" MODIFIED="1707435355801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI_Interface" />
-    <SUITE FILE_PATH="coverage/METAR_Decoder$main.coverage" NAME="main Coverage Results" MODIFIED="1707482665313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/METAR_Decoder$main.coverage" NAME="main Coverage Results" MODIFIED="1707585411016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
