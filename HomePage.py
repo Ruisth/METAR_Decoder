@@ -39,4 +39,4 @@ class HomeScreen(Screen):
 
     def metar_decode(self, instance):
         # Replace this section with te code to METAR Decoder
-        self.manager.current = 'decoder'
+        self.manager.current = 'METAR Decoder'

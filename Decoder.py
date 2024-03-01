@@ -1,12 +1,60 @@
+import requests
+from kivy.uix.button import Button
+from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.image import Image
+from kivy.uix.label import Label
+from kivy.uix.relativelayout import RelativeLayout
 from kivy.uix.screenmanager import Screen
+from kivy.uix.textinput import TextInput
 
 
 class DecoderScreen(Screen):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
 
-    def decode_metar(self, metar):
+        layout = RelativeLayout()
+
+        # Background Image
+        background_image = Image(source='Resources/METAR_Decoder_Image.png', allow_stretch=True, keep_ratio=False)
+        self.add_widget(background_image)
+
+        # Input Box
+        metar_box = BoxLayout(orientation='horizontal', size_hint=(None, None), size=(600, 100))
+        metar_box.pos_hint = {'center_x': 0.5, 'center_y': 0.8}
+        self.metar_input = TextInput(hint_text="Enter METAR code here...", size_hint=(0.5, 1),
+                                     background_color=(0.082, 0.322, 0.388, 1))
+        metar_box.add_widget(self.metar_input)
+
+        response_box = BoxLayout(orientation='horizontal', size_hint=(None, None), size=(600, 100), opacity=1)
+        response_box.pos_hint = {'center_x': 0.5, 'center_y': 0.6}
+        self.response_label = Label(text="")
+        self.response_label.bind(size=lambda instance, value: setattr(self.response_label, 'text_size', value))
+        response_box.add_widget(self.response_label)
+
+        # Buttons Layout
+        buttons_layout = BoxLayout(orientation='horizontal', size_hint=(None, None), size=(600, 100), spacing=50)
+        buttons_layout.pos_hint = {'center_x': 0.5, 'center_y': 0.1}
+
+        # Button to Search
+        decode_button = Button(text='Decode', size_hint=(0.5, 1), background_color=(0.082, 0.322, 0.388, 1))
+        decode_button.bind(on_press=self.decode_metar)
+
+        # Button to go Back
+        home_button = Button(text='Home', size_hint=(0.5, 1), background_color=(0.082, 0.322, 0.388, 1))
+        home_button.bind(on_press=self.home_screen)
+
+        buttons_layout.add_widget(decode_button)
+        buttons_layout.add_widget(home_button)
+        layout.add_widget(metar_box)
+        layout.add_widget(response_box)
+        layout.add_widget(buttons_layout)
+        self.add_widget(layout)
+
+    def decode_metar(self, instance):
         decoded_metar = {}
 
         # Split METAR string into individual components
+        metar = self.metar_input.text
         components = metar.split()
 
         # Extracting basic information
@@ -37,13 +85,11 @@ class DecoderScreen(Screen):
         else:
             decoded_metar['visibility'] = decoded_metar['visibility'] + ' meters'
 
-        return decoded_metar
+        self.response_label.text = str(decoded_metar)
+        print("Decoded METAR : ")
+        print(decoded_metar)
 
-
-# Example usage:
-if __name__ == '__main__':
-    decoder = Decoder()
-    metar_string = input("Insert METAR: ")
-    string = metar_string
-    decoded_metar = decoder.decode_metar(string)
-    print(decoded_metar)
+    def home_screen(self, instance):
+        self.manager.current = 'Home Page'
+        self.metar_input.text = ""
+        self.response_label.text = ""

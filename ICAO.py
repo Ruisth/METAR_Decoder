@@ -9,7 +9,6 @@ from kivy.uix.textinput import TextInput
 
 
 class ICAOScreen(Screen):
-
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
@@ -41,11 +40,11 @@ class ICAOScreen(Screen):
         search_button.bind(on_press=self.fetch_metar_data)
 
         # Button to go Back
-        back_button = Button(text='Back', size_hint=(0.5, 1), background_color=(0.082, 0.322, 0.388, 1))
-        back_button.bind(on_press=self.home_screen)
+        home_button = Button(text='Home', size_hint=(0.5, 1), background_color=(0.082, 0.322, 0.388, 1))
+        home_button.bind(on_press=self.home_screen)
 
         buttons_layout.add_widget(search_button)
-        buttons_layout.add_widget(back_button)
+        buttons_layout.add_widget(home_button)
         layout.add_widget(icao_box)
         layout.add_widget(response_box)
         layout.add_widget(buttons_layout)
@@ -66,7 +65,6 @@ class ICAOScreen(Screen):
             return None
 
     def home_screen(self, instance):
-
         self.manager.current = 'Home Page'
         self.icao_input.text = ""
         self.response_label.text = ""

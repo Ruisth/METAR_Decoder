@@ -14,7 +14,7 @@ class MetarDecoder(App):
         # Adding screens here
         screen_manager.add_widget(HomeScreen(name='Home Page'))
         screen_manager.add_widget(ICAOScreen(name='ICAO Input'))
-        #screen_manager.add_widget(DecoderScreen(name='METAR Decoder'))
+        screen_manager.add_widget(DecoderScreen(name='METAR Decoder'))
 
         return screen_manager
 
