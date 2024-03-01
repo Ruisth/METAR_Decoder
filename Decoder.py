@@ -1,4 +1,7 @@
-class Decoder:
+from kivy.uix.screenmanager import Screen
+
+
+class DecoderScreen(Screen):
 
     def decode_metar(self, metar):
         decoded_metar = {}
