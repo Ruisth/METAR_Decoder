@@ -4,10 +4,240 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40fba983-c3ac-40f7-8d26-e36ff1fe25e3" name="Changes" comment="ICAO code fetch">
-      <change afterPath="$PROJECT_DIR$/Resources/METAR_Decoder_Example.png" afterDir="false" />
+    <list default="true" id="40fba983-c3ac-40f7-8d26-e36ff1fe25e3" name="Changes" comment="Decoder implementation">
+      <change afterPath="$PROJECT_DIR$/build/main/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/COLLECT-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/graph-main.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/main.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/main.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/warn-main.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/xref-main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/PIL/_imaging.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/PIL/_imagingcms.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/PIL/_imagingft.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/PIL/_imagingmath.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/PIL/_imagingtk.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/PIL/_webp.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/Resources/METAR_Decoder_Image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/SDL2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/SDL2_image.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/SDL2_mixer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/SDL2_ttf.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/VCRUNTIME140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/VCRUNTIME140_1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/_asyncio.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/_bz2.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/_ctypes.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/_decimal.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/_elementtree.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/_hashlib.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/_lzma.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/_multiprocessing.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/_overlapped.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/_queue.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/_socket.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/_ssl.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/_wmi.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/certifi/cacert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/certifi/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/isoamsa.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/isoamsb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/isoamsc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/isoamsn.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/isoamso.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/isoamsr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/isobox.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/isocyr1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/isocyr2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/isodia.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/isogrk1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/isogrk2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/isogrk3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/isogrk4-wide.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/isogrk4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/isolat1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/isolat2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/isomfrk-wide.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/isomfrk.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/isomopf-wide.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/isomopf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/isomscr-wide.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/isomscr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/isonum.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/isopub.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/isotech.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/mmlalias.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/mmlextra-wide.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/mmlextra.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/s5defs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/xhtml1-lat1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/xhtml1-special.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/parsers/rst/include/xhtml1-symbol.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/html4css1/html4css1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/html4css1/template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/html5_polyglot/math.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/html5_polyglot/minimal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/html5_polyglot/plain.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/html5_polyglot/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/html5_polyglot/template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/html5_polyglot/tuftig.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/latex2e/default.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/latex2e/docutils.sty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/latex2e/titlepage.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/latex2e/titlingpage.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/latex2e/xelatex.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/odf_odt/styles.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/pep_html/pep.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/pep_html/template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/s5_html/themes/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/s5_html/themes/big-black/__base__" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/s5_html/themes/big-black/framing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/s5_html/themes/big-black/pretty.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/s5_html/themes/big-white/framing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/s5_html/themes/big-white/pretty.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/s5_html/themes/default/framing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/s5_html/themes/default/opera.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/s5_html/themes/default/outline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/s5_html/themes/default/pretty.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/s5_html/themes/default/print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/s5_html/themes/default/s5-core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/s5_html/themes/default/slides.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/s5_html/themes/default/slides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/s5_html/themes/medium-black/__base__" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/s5_html/themes/medium-black/pretty.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/s5_html/themes/medium-white/framing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/s5_html/themes/medium-white/pretty.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/s5_html/themes/small-black/__base__" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/s5_html/themes/small-black/pretty.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/s5_html/themes/small-white/framing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/docutils/writers/s5_html/themes/small-white/pretty.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/ffi-7.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/glew32.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/glib-2.0-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/gmodule-2.0-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/gobject-2.0-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/gstreamer-1.0-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/intl-8.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/_clock.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/_event.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/_metrics.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/core/audio/audio_sdl2.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/core/clipboard/_clipboard_sdl2.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/core/image/_img_sdl2.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/core/text/_text_sdl2.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/core/text/text_layout.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/core/window/_window_sdl2.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/core/window/window_info.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/graphics/boxshadow.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/graphics/buffer.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/graphics/cgl.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/graphics/cgl_backend/cgl_debug.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/graphics/cgl_backend/cgl_gl.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/graphics/cgl_backend/cgl_glew.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/graphics/cgl_backend/cgl_mock.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/graphics/cgl_backend/cgl_sdl2.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/graphics/compiler.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/graphics/context.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/graphics/context_instructions.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/graphics/fbo.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/graphics/gl_instructions.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/graphics/instructions.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/graphics/opengl.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/graphics/opengl_utils.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/graphics/scissor_instructions.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/graphics/shader.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/graphics/stencil_instructions.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/graphics/svg.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/graphics/tesselator.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/graphics/texture.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/graphics/transformation.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/graphics/vbo.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/graphics/vertex.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/graphics/vertex_instructions.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/lib/gstplayer/_gstplayer.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/properties.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy/weakproxy.cp312-win_amd64.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/fonts/DejaVuSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/fonts/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/fonts/Roboto-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/fonts/Roboto-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/fonts/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/fonts/RobotoMono-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/glsl/default.fs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/glsl/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/glsl/default.vs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/glsl/header.fs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/glsl/header.vs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/images/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/images/cursor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/images/defaultshape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/images/defaulttheme-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/images/defaulttheme.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/images/image-loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/images/image-loading.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/images/testpattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/keyboards/azerty.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/keyboards/de.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/keyboards/de_CH.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/keyboards/en_US.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/keyboards/es_ES.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/keyboards/fr_CH.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/keyboards/qwerty.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/keyboards/qwertz.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/logo/kivy-icon-128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/logo/kivy-icon-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/logo/kivy-icon-24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/logo/kivy-icon-256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/logo/kivy-icon-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/logo/kivy-icon-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/logo/kivy-icon-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/logo/kivy-icon-64.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/logo/kivy-icon-64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/settings_kivy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/data/style.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/modules/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/modules/_webdebugger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/modules/console.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/modules/cursor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/modules/inspector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/modules/joycursor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/modules/keybinding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/modules/monitor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/modules/recorder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/modules/screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/modules/showborder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/modules/touchring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/kivy_install/modules/webdebugger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/libcrypto-3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/libffi-8.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/libssl-3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pyexpat.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/python312.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/pywin32_system32/pywintypes312.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/select.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/unicodedata.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/win32/win32api.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/win32/win32file.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/_internal/win32/win32gui.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main/main.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/METAR_Decoder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/METAR_Decoder.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_02_2024_12_44_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_09_02_2024_12_44__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_02_2024_16_27_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09_02_2024_16_27__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_02_2024_23_50_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_02_2024_23_50__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +296,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.Decoder.executor&quot;: &quot;Run&quot;,
     &quot;Python.ICAO.executor&quot;: &quot;Run&quot;,
     &quot;Python.gui.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
@@ -78,11 +309,39 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ruisth\PycharmProjects\METAR_Decoder" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.main">
+    <configuration name="Decoder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="METAR_Decoder" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Decoder" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Ruisth\PycharmProjects\METAR_Decoder\Decoder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ICAO" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="METAR_Decoder" />
       <option name="ENV_FILES" value="" />
@@ -97,7 +356,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ICAO/ICAO.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Ruisth\PycharmProjects\METAR_Decoder\ICAO.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,6 +390,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Decoder" />
         <item itemvalue="Python.ICAO" />
       </list>
     </recent_temporary>
@@ -138,7 +398,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
+        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
       </set>
     </attachedChunks>
   </component>
@@ -159,6 +419,19 @@
       <workItem from="1707579679439" duration="4761000" />
       <workItem from="1707700016009" duration="2832000" />
       <workItem from="1707702936242" duration="1909000" />
+      <workItem from="1707743807690" duration="995000" />
+      <workItem from="1707748947078" duration="589000" />
+      <workItem from="1707756822605" duration="842000" />
+      <workItem from="1708131346925" duration="2000" />
+      <workItem from="1708131366953" duration="890000" />
+      <workItem from="1708132273085" duration="40000" />
+      <workItem from="1708132345521" duration="167000" />
+      <workItem from="1708132528047" duration="1202000" />
+      <workItem from="1708209118114" duration="599000" />
+      <workItem from="1708418910335" duration="23000" />
+      <workItem from="1708418943448" duration="255000" />
+      <workItem from="1709121284096" duration="186000" />
+      <workItem from="1709238239998" duration="11323000" />
     </task>
     <task id="LOCAL-00001" summary="ICAO code fetch">
       <option name="closed" value="true" />
@@ -168,7 +441,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707702304869</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Decoder implementation">
+      <option name="closed" value="true" />
+      <created>1707757595719</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707757595719</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,11 +470,13 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="ICAO code fetch" />
-    <option name="LAST_COMMIT_MESSAGE" value="ICAO code fetch" />
+    <MESSAGE value="Decoder implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Decoder implementation" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/METAR_Decoder$ICAO.coverage" NAME="ICAO Coverage Results" MODIFIED="1708419135773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ICAO" />
     <SUITE FILE_PATH="coverage/METAR_Decoder$gui.coverage" NAME="gui Coverage Results" MODIFIED="1707435355801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI_Interface" />
-    <SUITE FILE_PATH="coverage/METAR_Decoder$ICAO.coverage" NAME="ICAO Coverage Results" MODIFIED="1707703279885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ICAO" />
-    <SUITE FILE_PATH="coverage/METAR_Decoder$main.coverage" NAME="main Coverage Results" MODIFIED="1707703292457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/METAR_Decoder$main.coverage" NAME="main Coverage Results" MODIFIED="1709254620776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/METAR_Decoder$Decoder.coverage" NAME="Decoder Coverage Results" MODIFIED="1708419159962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Decoder" />
   </component>
 </project>
